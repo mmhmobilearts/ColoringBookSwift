@@ -8,7 +8,8 @@
 #import "Cell.h"
 #import "Constant.h"
 
-@interface FifthCategoryViewController (){
+@interface FifthCategoryViewController () <XLPagerTabStripChildItem>
+{
     NSMutableArray* imageList;
     NSArray *filesList;
 }

@@ -6,7 +6,8 @@
 
 #import <UIKit/UIKit.h>
 #import "CanvasViewController.h"
-@interface SecondCategoryViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,DrawingViewDelegate,XLPagerTabStripChildItem>
+
+@interface SecondCategoryViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,DrawingViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end

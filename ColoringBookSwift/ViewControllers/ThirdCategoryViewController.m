@@ -9,7 +9,8 @@
 #import "Cell.h"
 #import "Constant.h"
 
-@interface ThirdCategoryViewController (){
+@interface ThirdCategoryViewController () <XLPagerTabStripChildItem>
+{
     NSMutableArray* imageList;
     NSArray *filesList;
 }

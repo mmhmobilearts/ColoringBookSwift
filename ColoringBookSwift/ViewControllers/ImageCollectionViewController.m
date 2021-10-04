@@ -10,7 +10,7 @@
 #import "ImageCollectionViewCell.h"
 #import "Constant.h"
 
-@interface ImageCollectionViewController ()
+@interface ImageCollectionViewController () <XLPagerTabStripChildItem>
 {
     
     NSMutableArray* categoryList;
