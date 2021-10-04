@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'XLPagerTabStrip'
   spec.source_files  = "ColoringBookSwift/**/*.{h,m}"
   spec.resources = "ColoringBookSwift/**/*.{storyboard,xib,xcassets,lproj,png}"
+  spec.public_header_files = "ColoringBookSwift/**/*.h"
   spec.ios.deployment_target = '14.0'
 
 end
