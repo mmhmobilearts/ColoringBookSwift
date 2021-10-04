@@ -5,8 +5,8 @@
 
 
 #import <UIKit/UIKit.h>
-#import "XLPagerTabStripViewController.h"
 #import "CanvasViewController.h"
+
 @interface FifthCategoryViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource,DrawingViewDelegate,XLPagerTabStripChildItem>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 

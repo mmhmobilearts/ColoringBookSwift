@@ -4,6 +4,7 @@
 //
 
 
+#import "XLPagerTabStripViewController.h"
 #import "FourthCategoryViewController.h"
 #import "Cell.h"
 #import "Constant.h"

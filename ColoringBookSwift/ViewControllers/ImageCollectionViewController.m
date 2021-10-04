@@ -4,6 +4,7 @@
 //
 
 
+#import "XLPagerTabStripViewController.h"
 #import "ImageCollectionViewController.h"
 #import "CategoryCell.h"
 #import "ImageCollectionViewCell.h"
