@@ -9,57 +9,57 @@
 /* Begin PBXBuildFile section */
 		D8064ABD270B2CEC009BCFF3 /* ColoringBookSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064ABB270B2CEC009BCFF3 /* ColoringBookSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064B6E270B2E36009BCFF3 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064AC4270B2E35009BCFF3 /* ColorPickerView.m */; };
-		D8064B6F270B2E36009BCFF3 /* ColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064AC5270B2E35009BCFF3 /* ColorPickerView.h */; };
+		D8064B6F270B2E36009BCFF3 /* ColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064AC5270B2E35009BCFF3 /* ColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064B70270B2E36009BCFF3 /* ColorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8064AC6270B2E35009BCFF3 /* ColorPickerView.xib */; };
-		D8064B73270B2E36009BCFF3 /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064ACE270B2E35009BCFF3 /* LinkedListStack.h */; };
-		D8064B74270B2E36009BCFF3 /* UIImage+FloodFill.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064ACF270B2E35009BCFF3 /* UIImage+FloodFill.h */; };
+		D8064B73270B2E36009BCFF3 /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064ACE270B2E35009BCFF3 /* LinkedListStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064B74270B2E36009BCFF3 /* UIImage+FloodFill.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064ACF270B2E35009BCFF3 /* UIImage+FloodFill.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064B75270B2E36009BCFF3 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064AD0270B2E35009BCFF3 /* LinkedListStack.m */; };
 		D8064B76270B2E36009BCFF3 /* UIImage+FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064AD1270B2E35009BCFF3 /* UIImage+FloodFill.m */; };
 		D8064BDD270B2E36009BCFF3 /* ReadNWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B40270B2E35009BCFF3 /* ReadNWrite.m */; };
-		D8064BDE270B2E36009BCFF3 /* ReadNWrite.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B41270B2E35009BCFF3 /* ReadNWrite.h */; };
-		D8064BDF270B2E36009BCFF3 /* ImageCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B43270B2E35009BCFF3 /* ImageCollectionViewController.h */; };
-		D8064BE0270B2E36009BCFF3 /* ThirdCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B44270B2E35009BCFF3 /* ThirdCategoryViewController.h */; };
+		D8064BDE270B2E36009BCFF3 /* ReadNWrite.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B41270B2E35009BCFF3 /* ReadNWrite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BDF270B2E36009BCFF3 /* ImageCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B43270B2E35009BCFF3 /* ImageCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BE0270B2E36009BCFF3 /* ThirdCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B44270B2E35009BCFF3 /* ThirdCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BE1270B2E36009BCFF3 /* AllCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B45270B2E35009BCFF3 /* AllCategoryViewController.m */; };
 		D8064BE2270B2E36009BCFF3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B46270B2E35009BCFF3 /* HomeViewController.m */; };
 		D8064BE3270B2E36009BCFF3 /* FourthCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B47270B2E35009BCFF3 /* FourthCategoryViewController.m */; };
 		D8064BE4270B2E36009BCFF3 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B48270B2E35009BCFF3 /* EditorViewController.m */; };
 		D8064BE5270B2E36009BCFF3 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B49270B2E35009BCFF3 /* CanvasViewController.m */; };
-		D8064BE6270B2E36009BCFF3 /* SecondCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B4A270B2E35009BCFF3 /* SecondCategoryViewController.h */; };
+		D8064BE6270B2E36009BCFF3 /* SecondCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B4A270B2E35009BCFF3 /* SecondCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BE7270B2E36009BCFF3 /* FifthCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B4B270B2E35009BCFF3 /* FifthCategoryViewController.m */; };
 		D8064BE8270B2E36009BCFF3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B4C270B2E35009BCFF3 /* MainViewController.m */; };
 		D8064BE9270B2E36009BCFF3 /* ImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B4D270B2E35009BCFF3 /* ImageCollectionViewController.m */; };
 		D8064BEA270B2E36009BCFF3 /* SecondCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B4E270B2E35009BCFF3 /* SecondCategoryViewController.m */; };
-		D8064BEB270B2E36009BCFF3 /* CanvasViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B4F270B2E35009BCFF3 /* CanvasViewController.h */; };
-		D8064BEC270B2E36009BCFF3 /* EditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B50270B2E35009BCFF3 /* EditorViewController.h */; };
-		D8064BED270B2E36009BCFF3 /* FourthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B51270B2E35009BCFF3 /* FourthCategoryViewController.h */; };
-		D8064BEE270B2E36009BCFF3 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B52270B2E35009BCFF3 /* HomeViewController.h */; };
-		D8064BEF270B2E36009BCFF3 /* AllCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B53270B2E35009BCFF3 /* AllCategoryViewController.h */; };
+		D8064BEB270B2E36009BCFF3 /* CanvasViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B4F270B2E35009BCFF3 /* CanvasViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BEC270B2E36009BCFF3 /* EditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B50270B2E35009BCFF3 /* EditorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BED270B2E36009BCFF3 /* FourthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B51270B2E35009BCFF3 /* FourthCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BEE270B2E36009BCFF3 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B52270B2E35009BCFF3 /* HomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BEF270B2E36009BCFF3 /* AllCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B53270B2E35009BCFF3 /* AllCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BF0270B2E36009BCFF3 /* ThirdCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B54270B2E35009BCFF3 /* ThirdCategoryViewController.m */; };
-		D8064BF1270B2E36009BCFF3 /* FifthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B55270B2E35009BCFF3 /* FifthCategoryViewController.h */; };
-		D8064BF2270B2E36009BCFF3 /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B56270B2E35009BCFF3 /* MainViewController.h */; };
+		D8064BF1270B2E36009BCFF3 /* FifthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B55270B2E35009BCFF3 /* FifthCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BF2270B2E36009BCFF3 /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B56270B2E35009BCFF3 /* MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BF4270B2E36009BCFF3 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B59270B2E35009BCFF3 /* CategoryCell.m */; };
 		D8064BF5270B2E36009BCFF3 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8064B5A270B2E35009BCFF3 /* ColorCell.xib */; };
-		D8064BF6270B2E36009BCFF3 /* ColorViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5B270B2E35009BCFF3 /* ColorViewCell.h */; };
-		D8064BF7270B2E36009BCFF3 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5C270B2E35009BCFF3 /* Cell.h */; };
+		D8064BF6270B2E36009BCFF3 /* ColorViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5B270B2E35009BCFF3 /* ColorViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BF7270B2E36009BCFF3 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5C270B2E35009BCFF3 /* Cell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BF8270B2E36009BCFF3 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B5D270B2E35009BCFF3 /* ColorCell.m */; };
 		D8064BF9270B2E36009BCFF3 /* MenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B5E270B2E35009BCFF3 /* MenuViewCell.m */; };
-		D8064BFA270B2E36009BCFF3 /* ImageCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5F270B2E35009BCFF3 /* ImageCollectionViewCell.h */; };
-		D8064BFB270B2E36009BCFF3 /* CategoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B60270B2E35009BCFF3 /* CategoryCell.h */; };
-		D8064BFC270B2E36009BCFF3 /* MenuViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B61270B2E35009BCFF3 /* MenuViewCell.h */; };
-		D8064BFD270B2E36009BCFF3 /* ColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B62270B2E35009BCFF3 /* ColorCell.h */; };
+		D8064BFA270B2E36009BCFF3 /* ImageCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B5F270B2E35009BCFF3 /* ImageCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BFB270B2E36009BCFF3 /* CategoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B60270B2E35009BCFF3 /* CategoryCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BFC270B2E36009BCFF3 /* MenuViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B61270B2E35009BCFF3 /* MenuViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064BFD270B2E36009BCFF3 /* ColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B62270B2E35009BCFF3 /* ColorCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BFE270B2E36009BCFF3 /* ColorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B63270B2E35009BCFF3 /* ColorViewCell.m */; };
 		D8064BFF270B2E36009BCFF3 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B64270B2E35009BCFF3 /* Cell.m */; };
 		D8064C00270B2E36009BCFF3 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B65270B2E35009BCFF3 /* ImageCollectionViewCell.m */; };
 		D8064C01270B2E36009BCFF3 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8064B66270B2E35009BCFF3 /* Cell.xib */; };
 		D8064C02270B2E36009BCFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8064B67270B2E35009BCFF3 /* Assets.xcassets */; };
-		D8064C03270B2E36009BCFF3 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B69270B2E36009BCFF3 /* HexColors.h */; };
+		D8064C03270B2E36009BCFF3 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B69270B2E36009BCFF3 /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064C04270B2E36009BCFF3 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B6A270B2E36009BCFF3 /* HexColors.m */; };
-		D8064C06270B2E36009BCFF3 /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B6C270B2E36009BCFF3 /* Constant.h */; };
+		D8064C06270B2E36009BCFF3 /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B6C270B2E36009BCFF3 /* Constant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064C0E270B2E89009BCFF3 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064C09270B2E89009BCFF3 /* Stack.m */; };
 		D8064C0F270B2E89009BCFF3 /* KSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064C0A270B2E89009BCFF3 /* KSQueue.m */; };
-		D8064C10270B2E89009BCFF3 /* Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0B270B2E89009BCFF3 /* Stack.h */; };
-		D8064C11270B2E89009BCFF3 /* KSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0C270B2E89009BCFF3 /* KSQueue.h */; };
-		D8064C12270B2E89009BCFF3 /* ColoringBookSwift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0D270B2E89009BCFF3 /* ColoringBookSwift-Bridging-Header.h */; };
+		D8064C10270B2E89009BCFF3 /* Stack.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0B270B2E89009BCFF3 /* Stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064C11270B2E89009BCFF3 /* KSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0C270B2E89009BCFF3 /* KSQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8064C12270B2E89009BCFF3 /* ColoringBookSwift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064C0D270B2E89009BCFF3 /* ColoringBookSwift-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064C14270B2F51009BCFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8064ACC270B2E35009BCFF3 /* Main.storyboard */; };
 		D8064C81270B2F87009BCFF3 /* Mandala_14.png in Resources */ = {isa = PBXBuildFile; fileRef = D8064C17270B2F87009BCFF3 /* Mandala_14.png */; };
 		D8064C82270B2F87009BCFF3 /* Mandala_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D8064C18270B2F87009BCFF3 /* Mandala_01.png */; };
@@ -654,7 +654,6 @@
 				D8064BEF270B2E36009BCFF3 /* AllCategoryViewController.h in Headers */,
 				D8064BF2270B2E36009BCFF3 /* MainViewController.h in Headers */,
 				D8064C12270B2E89009BCFF3 /* ColoringBookSwift-Bridging-Header.h in Headers */,
-				D8064ABD270B2CEC009BCFF3 /* ColoringBookSwift.h in Headers */,
 				D8064BE0270B2E36009BCFF3 /* ThirdCategoryViewController.h in Headers */,
 				D8064BF1270B2E36009BCFF3 /* FifthCategoryViewController.h in Headers */,
 				D8064BFD270B2E36009BCFF3 /* ColorCell.h in Headers */,
@@ -672,6 +671,7 @@
 				D8064BEE270B2E36009BCFF3 /* HomeViewController.h in Headers */,
 				D8064BDE270B2E36009BCFF3 /* ReadNWrite.h in Headers */,
 				D8064BF6270B2E36009BCFF3 /* ColorViewCell.h in Headers */,
+				D8064ABD270B2CEC009BCFF3 /* ColoringBookSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
