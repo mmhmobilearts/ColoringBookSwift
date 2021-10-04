@@ -16,7 +16,8 @@ Pod::Spec.new do |spec|
     :tag => spec.version.to_s 
   }
   spec.framework = 'UIKit'
-  spec.dependency 'XLPagerTabStrip'
+  spec.dependency 'XLPagerTabStrip', '~> 3.0'
+  spec.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/XLPagerTabStrip"}
   spec.source_files  = "ColoringBookSwift/**/*.{h,m}"
   spec.resources = "ColoringBookSwift/**/*.{storyboard,xib,xcassets,lproj,png}"
   spec.public_header_files = "ColoringBookSwift/**/*.h"
