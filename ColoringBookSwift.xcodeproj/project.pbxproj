@@ -1024,6 +1024,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BB63B793E1B39A536A9BE78 /* Pods-ColoringBookSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1049,6 +1050,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC73845740AE2A73AF62FFCA /* Pods-ColoringBookSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
