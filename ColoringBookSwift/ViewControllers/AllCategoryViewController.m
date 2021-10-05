@@ -94,7 +94,7 @@
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     for (int i = 0; i < 20; i++)
     {
-        filePath = [NSString stringWithFormat:@"Barbie_%02d", i+1];
+        filePath = [NSString stringWithFormat:@"Barbie_Doll_%02d", i+1];
         UIImage *image = [UIImage imageNamed:filePath
                                  inBundle:bundle
                compatibleWithTraitCollection:nil];
@@ -128,7 +128,7 @@
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     for (int i = 0; i < 20; i++)
     {
-        filePath = [NSString stringWithFormat:@"Santa_%02d", i+1];
+        filePath = [NSString stringWithFormat:@"Santa_Clous_%02d", i+1];
         UIImage *image = [UIImage imageNamed:filePath
                                  inBundle:bundle
                compatibleWithTraitCollection:nil];
