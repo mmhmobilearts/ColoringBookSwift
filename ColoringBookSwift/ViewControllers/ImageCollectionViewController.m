@@ -26,8 +26,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.imageCollectionView.delegate=self;
-    self.imageCollectionView.dataSource=self;
+    self.imageCollectionView.delegate = self;
+    self.imageCollectionView.dataSource = self;
     
     
     [self loadImages];
@@ -117,7 +117,7 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"CanvasViewController"];
+    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"Canvas"];
     editingViewController.objectImage=[imageList objectAtIndex:indexPath.item];
     editingViewController.index=indexPath;
     editingViewController.delegate=self;

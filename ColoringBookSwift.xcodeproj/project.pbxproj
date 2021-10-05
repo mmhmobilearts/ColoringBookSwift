@@ -20,7 +20,6 @@
 		D8064BDF270B2E36009BCFF3 /* ImageCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B43270B2E35009BCFF3 /* ImageCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BE0270B2E36009BCFF3 /* ThirdCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B44270B2E35009BCFF3 /* ThirdCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BE1270B2E36009BCFF3 /* AllCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B45270B2E35009BCFF3 /* AllCategoryViewController.m */; };
-		D8064BE2270B2E36009BCFF3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B46270B2E35009BCFF3 /* HomeViewController.m */; };
 		D8064BE3270B2E36009BCFF3 /* FourthCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B47270B2E35009BCFF3 /* FourthCategoryViewController.m */; };
 		D8064BE4270B2E36009BCFF3 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B48270B2E35009BCFF3 /* EditorViewController.m */; };
 		D8064BE5270B2E36009BCFF3 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B49270B2E35009BCFF3 /* CanvasViewController.m */; };
@@ -31,7 +30,6 @@
 		D8064BEB270B2E36009BCFF3 /* CanvasViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B4F270B2E35009BCFF3 /* CanvasViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BEC270B2E36009BCFF3 /* EditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B50270B2E35009BCFF3 /* EditorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BED270B2E36009BCFF3 /* FourthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B51270B2E35009BCFF3 /* FourthCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8064BEE270B2E36009BCFF3 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B52270B2E35009BCFF3 /* HomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BEF270B2E36009BCFF3 /* AllCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B53270B2E35009BCFF3 /* AllCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8064BF0270B2E36009BCFF3 /* ThirdCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8064B54270B2E35009BCFF3 /* ThirdCategoryViewController.m */; };
 		D8064BF1270B2E36009BCFF3 /* FifthCategoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8064B55270B2E35009BCFF3 /* FifthCategoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,7 +179,6 @@
 		D8064B43270B2E35009BCFF3 /* ImageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewController.h; sourceTree = "<group>"; };
 		D8064B44270B2E35009BCFF3 /* ThirdCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdCategoryViewController.h; sourceTree = "<group>"; };
 		D8064B45270B2E35009BCFF3 /* AllCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllCategoryViewController.m; sourceTree = "<group>"; };
-		D8064B46270B2E35009BCFF3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		D8064B47270B2E35009BCFF3 /* FourthCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthCategoryViewController.m; sourceTree = "<group>"; };
 		D8064B48270B2E35009BCFF3 /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
 		D8064B49270B2E35009BCFF3 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
@@ -192,7 +189,6 @@
 		D8064B4F270B2E35009BCFF3 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		D8064B50270B2E35009BCFF3 /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
 		D8064B51270B2E35009BCFF3 /* FourthCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthCategoryViewController.h; sourceTree = "<group>"; };
-		D8064B52270B2E35009BCFF3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D8064B53270B2E35009BCFF3 /* AllCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCategoryViewController.h; sourceTree = "<group>"; };
 		D8064B54270B2E35009BCFF3 /* ThirdCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdCategoryViewController.m; sourceTree = "<group>"; };
 		D8064B55270B2E35009BCFF3 /* FifthCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthCategoryViewController.h; sourceTree = "<group>"; };
@@ -426,8 +422,6 @@
 				D8064B4D270B2E35009BCFF3 /* ImageCollectionViewController.m */,
 				D8064B44270B2E35009BCFF3 /* ThirdCategoryViewController.h */,
 				D8064B54270B2E35009BCFF3 /* ThirdCategoryViewController.m */,
-				D8064B46270B2E35009BCFF3 /* HomeViewController.m */,
-				D8064B52270B2E35009BCFF3 /* HomeViewController.h */,
 				D8064B48270B2E35009BCFF3 /* EditorViewController.m */,
 				D8064B50270B2E35009BCFF3 /* EditorViewController.h */,
 				D8064B49270B2E35009BCFF3 /* CanvasViewController.m */,
@@ -661,7 +655,6 @@
 				D8064BF7270B2E36009BCFF3 /* Cell.h in Headers */,
 				D8064B6F270B2E36009BCFF3 /* ColorPickerView.h in Headers */,
 				D8064BEC270B2E36009BCFF3 /* EditorViewController.h in Headers */,
-				D8064BEE270B2E36009BCFF3 /* HomeViewController.h in Headers */,
 				D8064BDE270B2E36009BCFF3 /* ReadNWrite.h in Headers */,
 				D8064BF6270B2E36009BCFF3 /* ColorViewCell.h in Headers */,
 				D8064ABD270B2CEC009BCFF3 /* ColoringBookSwift.h in Headers */,
@@ -883,7 +876,6 @@
 				D8064BE3270B2E36009BCFF3 /* FourthCategoryViewController.m in Sources */,
 				D8064B75270B2E36009BCFF3 /* LinkedListStack.m in Sources */,
 				D8064BE1270B2E36009BCFF3 /* AllCategoryViewController.m in Sources */,
-				D8064BE2270B2E36009BCFF3 /* HomeViewController.m in Sources */,
 				D8064BE4270B2E36009BCFF3 /* EditorViewController.m in Sources */,
 				D8064BE7270B2E36009BCFF3 /* FifthCategoryViewController.m in Sources */,
 				D8064C0E270B2E89009BCFF3 /* Stack.m in Sources */,

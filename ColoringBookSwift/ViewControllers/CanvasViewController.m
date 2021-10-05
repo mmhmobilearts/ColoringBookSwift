@@ -57,7 +57,8 @@
     self.canvasScrollView.contentSize = self.targetImageView.frame.size;
     self.canvasScrollView.delegate = self;
     
-    UINib *nib = [UINib nibWithNibName:@"ColorCell" bundle:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    UINib *nib = [UINib nibWithNibName:@"ColorCell" bundle:bundle];
     [self.colorPickerCollectionView registerNib:nib forCellWithReuseIdentifier:@"ColorCell"];
     
     // By turning off clipping, you'll see the prior and next items.

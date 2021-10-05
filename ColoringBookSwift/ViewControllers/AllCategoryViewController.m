@@ -43,7 +43,8 @@
 }
 
 -(void)setup {
-    UINib *nib = [UINib nibWithNibName:@"Cell" bundle:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    UINib *nib = [UINib nibWithNibName:@"Cell" bundle:bundle];
     [self.animalCollectionView registerNib:nib forCellWithReuseIdentifier:@"Cell"];
     [self.animeCollectionView registerNib:nib forCellWithReuseIdentifier:@"Cell"];
     [self.barbieCollectionView registerNib:nib forCellWithReuseIdentifier:@"Cell"];
@@ -56,20 +57,14 @@
 {
     NSString *filePath;
     imageListForAnime=[[NSMutableArray alloc] init];
-    
-    NSString *stringPath =[ [[NSBundle mainBundle ] bundlePath] stringByAppendingPathComponent:@"/Anime/"];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error = nil;
-    
-    NSArray *filesList = [fileManager contentsOfDirectoryAtPath:stringPath error:&error];
-    
-    for (NSString *pathStr in filesList){
-        filePath = [NSString stringWithFormat:@"%@/Anime_%@", stringPath, pathStr];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    for (int i = 0; i < 20; i++)
+    {
+        filePath = [NSString stringWithFormat:@"Anime_%02d", i+1];
+        UIImage *image = [UIImage imageNamed:filePath
+                                 inBundle:bundle
+               compatibleWithTraitCollection:nil];
         [imageListForAnime addObject:image];
-        
     }
     [self.animeCollectionView reloadData];
     
@@ -79,20 +74,14 @@
 {
     NSString *filePath;
     imageListForAnimal=[[NSMutableArray alloc] init];
-    
-    NSString *stringPath =[ [[NSBundle mainBundle ] bundlePath] stringByAppendingPathComponent:@"/Animal/"];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error = nil;
-    
-    NSArray *filesList = [fileManager contentsOfDirectoryAtPath:stringPath error:&error];
-    
-    for (NSString *pathStr in filesList){
-        filePath = [NSString stringWithFormat:@"%@/Animal_%@", stringPath, pathStr];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    for (int i = 0; i < 20; i++)
+    {
+        filePath = [NSString stringWithFormat:@"Animal_%02d", i+1];
+        UIImage *image = [UIImage imageNamed:filePath
+                                 inBundle:bundle
+               compatibleWithTraitCollection:nil];
         [imageListForAnimal addObject:image];
-        
     }
     [self.animalCollectionView reloadData];
     
@@ -102,20 +91,14 @@
 {
     NSString *filePath;
     imageListForBarbie=[[NSMutableArray alloc] init];
-    
-    NSString *stringPath =[ [[NSBundle mainBundle ] bundlePath] stringByAppendingPathComponent:@"/Barbie Doll/"];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error = nil;
-    
-    NSArray *filesList = [fileManager contentsOfDirectoryAtPath:stringPath error:&error];
-    
-    for (NSString *pathStr in filesList){
-        filePath = [NSString stringWithFormat:@"%@/Barbie_Doll_%@", stringPath, pathStr];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    for (int i = 0; i < 20; i++)
+    {
+        filePath = [NSString stringWithFormat:@"Barbie_%02d", i+1];
+        UIImage *image = [UIImage imageNamed:filePath
+                                 inBundle:bundle
+               compatibleWithTraitCollection:nil];
         [imageListForBarbie addObject:image];
-        
     }
     [self.barbieCollectionView reloadData];
     
@@ -125,20 +108,14 @@
 {
     NSString *filePath;
     imageListForMandala=[[NSMutableArray alloc] init];
-    
-    NSString *stringPath =[ [[NSBundle mainBundle ] bundlePath] stringByAppendingPathComponent:@"/Mandala/"];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error = nil;
-    
-    NSArray *filesList = [fileManager contentsOfDirectoryAtPath:stringPath error:&error];
-    
-    for (NSString *pathStr in filesList){
-        filePath = [NSString stringWithFormat:@"%@/Mandala_%@", stringPath, pathStr];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    for (int i = 0; i < 20; i++)
+    {
+        filePath = [NSString stringWithFormat:@"Mandala_%02d", i+1];
+        UIImage *image = [UIImage imageNamed:filePath
+                                 inBundle:bundle
+               compatibleWithTraitCollection:nil];
         [imageListForMandala addObject:image];
-        
     }
     [self.mandalaCollectionVIew reloadData];
     
@@ -148,20 +125,14 @@
 {
     NSString *filePath;
     imageListForSanta=[[NSMutableArray alloc] init];
-    
-    NSString *stringPath =[ [[NSBundle mainBundle ] bundlePath] stringByAppendingPathComponent:@"/Santa Clous/"];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error = nil;
-    
-    NSArray *filesList = [fileManager contentsOfDirectoryAtPath:stringPath error:&error];
-    
-    for (NSString *pathStr in filesList){
-        filePath = [NSString stringWithFormat:@"%@/Santa_Clous_%@", stringPath, pathStr];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    for (int i = 0; i < 20; i++)
+    {
+        filePath = [NSString stringWithFormat:@"Santa_%02d", i+1];
+        UIImage *image = [UIImage imageNamed:filePath
+                                 inBundle:bundle
+               compatibleWithTraitCollection:nil];
         [imageListForSanta addObject:image];
-        
     }
     [self.santaCollectionView reloadData];
     
@@ -229,7 +200,7 @@
 }
 
 -(void)goTOCanvasViewController:(UIImage *)image selectedIndex:(NSIndexPath *)indexPath andType:(NSString *)type{
-    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"CanvasViewController"];
+    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"Canvas"];
     editingViewController.objectImage=image;
     editingViewController.index=indexPath;
     editingViewController.pigmentType = type;

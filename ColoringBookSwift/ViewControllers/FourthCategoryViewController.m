@@ -27,7 +27,8 @@
 }
 
 -(void)setup {
-    UINib *nib = [UINib nibWithNibName:@"Cell" bundle:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    UINib *nib = [UINib nibWithNibName:@"Cell" bundle:bundle];
     [self.collectionView registerNib:nib forCellWithReuseIdentifier:@"Cell"];
 }
 
@@ -92,7 +93,7 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"CanvasViewController"];
+    CanvasViewController *editingViewController=[self.storyboard instantiateViewControllerWithIdentifier:@"Canvas"];
     editingViewController.objectImage=[imageList objectAtIndex:indexPath.item];
     editingViewController.index=indexPath;
     editingViewController.delegate=self;
